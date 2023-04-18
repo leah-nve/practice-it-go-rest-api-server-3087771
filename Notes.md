@@ -1,3 +1,5 @@
+# Introduction
+
 - How do you set a pointer's value?
   - *n = 50 
 - Go DOES NOT hav classes
@@ -14,6 +16,27 @@
   
 ----
 
+# Some Basics:
+
 - Exported name: a function whose name starts with a capital letter can be called by a function not in the same package.
 - the `:=` operator is a shortcut for declaring and initializing a variable in one line
-- 
+
+----
+
+# Some Advanced Basics:
+
+- Methods vs. functions
+  - Functions: Blocks of code grouped together to perform specific tasks
+  - Methods: functions that have a receiver argument
+    - You can define methods on types you define in your package
+    - A receiver is the argument that a method is called on
+  - Struct: A collection of fields
+ 
+
+
+
+
+| Methods                         | Functions |
+| ------------------------------- | ----------- |
+| Header                          | Blocks of code grouped |
+
